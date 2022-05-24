@@ -6,8 +6,10 @@
   }
 
   .cabecera {
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
   }
   
  
@@ -18,29 +20,34 @@
     padding: 5% 5%;
   }
   
-  .cabecera {
-    display: flex;
-    justify-content: center;
-  }
-  .contenido {
-    justify-content: center;
+
+  .conteiner {
     display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  figcaption{
-
-     font: bold 200% monospace;
+  .caption{
+    font-size: 0.7em;
+    text-align: justify;
+     color: black;
+     background:  linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0));
+     text-align: left;
+     padding: 0px 0px;
+     width: 100%;
   }
 
-  .conteiner {
-       padding: 10px; margin: 10px; border: 5px solid black; float: left; width: 83%; 
-    }
-    .conteiner__img{
-      width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .content {
 
+       padding: 20px; margin: 10px; border: 5px solid black; float: left; width: 90%; 
     }
+
+  .imgn{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    }
+
+
  
 
